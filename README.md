@@ -79,3 +79,5 @@ route53_zone_id = "ZXXXXXXXXXXXXX"
 To destroy the infrastructure and avoid ongoing costs, run the following command:
 * terraform destroy
 
+Confirm the destruction by typing yes when prompted.
+

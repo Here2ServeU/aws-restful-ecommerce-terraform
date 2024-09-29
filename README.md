@@ -25,25 +25,6 @@ Before running this Terraform project, ensure you have the following tools and d
 * A registered domain (for Route 53) and hosted zone
 * SSH key pair (if you want to connect to EC2 instances)
 
-**File Structure**
-t2s-products-terraform/
-├── main.tf                # Root Terraform configuration
-├── variables.tf           # Global variable definitions
-├── outputs.tf             # Output values after infrastructure creation
-├── terraform.tfvars       # Environment-specific variables
-├── modules/
-│   ├── vpc/               # VPC and subnet configuration
-│   ├── s3/                # S3 bucket configuration
-│   ├── cloudfront/        # CloudFront distribution
-│   ├── dynamodb/          # DynamoDB tables for product catalog and user data
-│   ├── elasticache/       # ElastiCache for cart checkout caching
-│   ├── elasticsearch/     # Elasticsearch domain for search functionality
-│   ├── route53/           # Route 53 domain configuration
-├── environments/
-│   ├── dev/
-│   ├── stage/
-│   ├── prod/
-
 #### Setting up the Environment
 
 **Clone the Repository:** 
